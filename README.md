@@ -1,0 +1,1 @@
+Dit is de cursus ASP.NET Core, gegeven door Raf Ceuls aan de Thomas More Hogeschool in de richting IMD. Laatste update voor het schooljaar 2018-2019

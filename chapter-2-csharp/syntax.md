@@ -19,15 +19,15 @@ namespace CSharpIntro // <2>
     }
 }
 ```
-`<1>` De `using` block geeft aan dat er classes van een externe namespace gebruikt worden en waar je ze kan vinden.
+1. De `using` block geeft aan dat er classes van een externe namespace gebruikt worden en waar je ze kan vinden.
 
-`<2>` De `namespace` is de namespace van de applicatie. Dit is een logische onderverdeling binnen de applicatie en wordt ook exposed naar alle code die gebruik maakt van onze code. Je bepaalt deze binnen je eigen applicatie/libraries grotendeels zelf.
+2. De `namespace` is de namespace van de applicatie. Dit is een logische onderverdeling binnen de applicatie en wordt ook exposed naar alle code die gebruik maakt van onze code. Je bepaalt deze binnen je eigen applicatie/libraries grotendeels zelf.
 
-`<3>` `class` es worden later besproken, in het hoofdstuk Object Oriented Programming. 
+3. `class` es worden later besproken, in het hoofdstuk Object Oriented Programming. 
 
-`<4>` Dit is een function, gegroepeerde statements binnen een herbruikbar blok. 
+4. Dit is een function, gegroepeerde statements binnen een herbruikbar blok. 
 
-`<5>` Dit is een statement. Deze gaat uitgevoerd worden in de applicatie als de functie waarin het statement staat aangeroepen wordt.
+5. Dit is een statement. Deze gaat uitgevoerd worden in de applicatie als de functie waarin het statement staat aangeroepen wordt.
 
 ## Variabelen
 ```csharp

@@ -1,0 +1,1 @@
+Dit is een overzicht van de functionaliteit van C#, de taal die we gaan gebruiken om het backend gedeelte van onze website te maken.

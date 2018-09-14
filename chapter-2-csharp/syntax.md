@@ -4,7 +4,8 @@
     - `code projectnaam`
 * Een console project is een project dat een executable maakt dat gerunned kan worden met behulp van de .NET core runtime.
 
-## Algemene Structuur
+## Algemene Structuur 
+[<img src='../shared/GitHub_Logo.png' Height="20" />](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/CsharpIntro).
 ```csharp
 using System; // <1> 
 
@@ -30,6 +31,7 @@ namespace CSharpIntro // <2>
 5. Dit is een statement. Deze gaat uitgevoerd worden in de applicatie als de functie waarin het statement staat aangeroepen wordt.
 
 ## Variabelen
+[<img src='../shared/GitHub_Logo.png' Height="20" />](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/CsharpIntro-Variables)
 ```csharp
 using System;
 
@@ -63,7 +65,8 @@ namespace CSharpIntro
 }
 ```
  
-## Conditionals
+## Conditionals 
+[<img src='../shared/GitHub_Logo.png' Height="20" />](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/CsharpIntro-Conditionals)
 ```csharp
 using System;
 
@@ -106,7 +109,8 @@ namespace CSharpIntro
 }
 ```
 
-## Itereren
+## Itereren 
+[<img src='../shared/GitHub_Logo.png' Height="20" />](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/CsharpIntro-Conditionals)
 ```csharp
 using System;
 

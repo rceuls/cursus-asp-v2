@@ -1,14 +1,1 @@
-{
-    "plugins": ["anchors", "ribbon"],
-
-    "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
-        "ribbon": {
-            "color": "black",
-            "text": "Github",
-            "url": "https://github.com/rceuls/cursus-asp-v2-examples"
-        }
-    }
-}
+{}

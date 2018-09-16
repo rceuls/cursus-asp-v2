@@ -14,7 +14,7 @@
 * Op dit moment alleen services, console applicaties en websites
 
 ## Xamarin/Mono
-* Gratis, open source, cross platform
+* Gratis, open source, cross-platform
 * Ontwikkeld door Xamarin
 * .NET implementatie om cross-platform desktop applicaties te ontwikkelen
 
@@ -25,10 +25,10 @@
 
 ## Libraries
 * Geschreven door externe partijen
-* Beschikbaar via de link:http://www.nuget.org[NuGet] package manager.
+* Beschikbaar via de link: [NuGet package manager](http://www.nuget.org) .
 * Vergelijkbaar met NPM
 
 ## ASP.NET 
 * Web UI en Web API
 * Beschikbaar als NuGet packages
-* Standaard support voor Razor Pages (c# in html) en integratie met frameworks zoals Angular, React, ... 
+* Standaard support voor Razor Pages (C# in HTML) en integratie met frameworks zoals Angular, React, ... 

@@ -113,13 +113,13 @@ class Program
 
 Access modifiers bepalen wat er toegang heeft tot fields/functions van een bepaalde klasse.
 
-|   |   |
-|---|---|
-|public|Alle code kan dit aanspreken|
-|private|Alleen te gebruiken binnen de klasse zelf|
-|protected|Alleen binnen de klasse zelf of zijn derivaten|
-|internal|Alleen binnen de assembly waarin de klasse gedefinieerd staat|
-|protected internal|Combinatie van protected en internal|
+| Access modifier    | Functie                                                       |
+| ------------------ | ------------------------------------------------------------- |
+| public             | Alle code kan dit aanspreken                                  |
+| private            | Alleen te gebruiken binnen de klasse zelf                     |
+| protected          | Alleen binnen de klasse zelf of zijn derivaten                |
+| internal           | Alleen binnen de assembly waarin de klasse gedefinieerd staat |
+| protected internal | Combinatie van protected en internal                          |
 
 ## Interfaces
 * Een contract dat definieert welke properties/methodes een klasse dient de bevatten.

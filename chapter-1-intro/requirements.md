@@ -9,13 +9,14 @@
 
 ## Hoe te installeren
 * Installatiebestand downloaden van de website en installeren.
-* Testen door in een console/command prompt `dotnet` uit te voeren
+* Testen door in een console/command prompt `dotnet` uit te voeren.
 
 ![Uitvoeren dotnet](img/01_DotnetCleanOutput.PNG)
 
 # Visual Studio Code
 
 ## Waarom
+* Gratis.
 * Cross-platform.
 * Lightweight (tegenover Visual Studio).
 * Kan uitgebreid worden met extensions.
@@ -24,10 +25,10 @@
 ## Links
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
-* [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper) - Zorgt voor intellisense voor razor files
+* [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper) - Zorgt voor intellisense voor razor files.
 
 ## Hoe te installeren. 
-- Installeer eerst visual studio code zelf
+- Installeer eerst Visual Studio Code zelf.
 - Installeer daarna de extensions. Dit kan ofwel via de website ofwel via de extension manager van Visual Studio Code zelf.
 
 ![Extensions installeren](img/00_InstallingExtensions.PNG)

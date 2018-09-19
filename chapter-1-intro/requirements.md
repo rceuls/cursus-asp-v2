@@ -1,6 +1,6 @@
 # .NET Core
 
-##Waarom
+## Waarom
 * Cross-platform.
 * Kan bijgevolg ook in containers (docker e.a.) gedeployed worden.
 

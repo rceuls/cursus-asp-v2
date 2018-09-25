@@ -1,0 +1,1 @@
+Use (landslide)[https://github.com/adamzap/landslide] to generate html files from the md files in this directory

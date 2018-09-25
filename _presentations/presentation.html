@@ -49,13 +49,15 @@
     </div>
     <div class="slides">
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
         <div class="slide slide-1">
           <div class="inner">
             
             <header><h1>ASP.NET MVC</h1></header>
             
+            
+            <section><h2>Syntax C#</h2></section>
             
           </div>
           <div class="presenter_notes">
@@ -67,17 +69,17 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              1/9
+              1/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
         <div class="slide slide-2">
           <div class="inner">
@@ -86,11 +88,9 @@
             
             
             <section><ul>
-<li>Wie ben ik?</li>
-<li>Manier van lesgeven</li>
-<li>Opdrachten &amp; Evaluatiemomenten</li>
-<li>Vragen</li>
-<li>Wat gaan we leren?</li>
+<li>Hello World</li>
+<li>Variabelen</li>
+<li></li>
 </ul></section>
             
           </div>
@@ -103,29 +103,38 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              2/9
+              2/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-3">
+        <div class="slide has_code slide-3">
           <div class="inner">
             
-            <header><h1>Wie ben ik?</h1></header>
+            <header><h1>Hello World</h1></header>
             
             
-            <section><ul>
-<li>Raf Ceuls</li>
-<li>Werkt bij als technical lead bij Foreach</li>
-<li>Voornamelijk .NET (Core), maar ook Java, React, ...</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2 </span>
+<span class="lineno"> 3 </span><span class="k">namespace</span> <span class="nn">Basic</span>
+<span class="lineno"> 4 </span><span class="p">{</span>
+<span class="lineno"> 5 </span>  <span class="k">public</span> <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno"> 6 </span>  <span class="p">{</span>
+<span class="lineno"> 7 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno"> 8 </span>    <span class="p">{</span>
+<span class="lineno"> 9 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;hoi&quot;</span><span class="p">);</span>
+<span class="lineno">10 </span>    <span class="p">}</span>
+<span class="lineno">11 </span>  <span class="p">}</span>
+<span class="lineno">12 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -137,33 +146,40 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              3/9
+              3/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-4">
+        <div class="slide has_code slide-4">
           <div class="inner">
             
-            <header><h1>Manier lesgeven</h1></header>
+            <header><h1>Variabelen</h1></header>
             
             
-            <section><ul>
-<li>Slides &amp; materiaal op Toledo.</li>
-<li>Alle opdrachten via Toledo.</li>
-<li>Lessen bestaan uit een korte theoretische uitleg (met voorbeelden) met daaropvolgend een oefening.</li>
-<li>In groep werken mag, onder voorbehoud.<ul>
-<li>Altijd vermelden met wie je samenwerkte.</li>
-</ul>
-</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2 </span>
+<span class="lineno"> 3 </span><span class="k">namespace</span> <span class="nn">Basic</span>
+<span class="lineno"> 4 </span><span class="p">{</span>
+<span class="lineno"> 5 </span>  <span class="k">public</span> <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno"> 6 </span>  <span class="p">{</span>
+<span class="lineno"> 7 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno"> 8 </span>    <span class="p">{</span>
+<span class="lineno"> 9 </span>      <span class="n">String</span> <span class="n">name</span> <span class="p">=</span> <span class="s">&quot;xyz&quot;</span><span class="p">;</span>
+<span class="lineno">10 </span>      <span class="kt">var</span> <span class="n">nameAsVar</span> <span class="p">=</span> <span class="s">&quot;abc&quot;</span><span class="p">;</span>
+<span class="lineno">11 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{name} - {nameAsVar}&quot;</span><span class="p">);</span>
+<span class="lineno">12 </span>    <span class="p">}</span>
+<span class="lineno">13 </span>  <span class="p">}</span>
+<span class="lineno">14 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -175,35 +191,46 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              4/9
+              4/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-5">
+        <div class="slide has_code slide-5">
           <div class="inner">
             
-            <header><h1>Opdrachten</h1></header>
+            <header><h1>Verschillende types - Basic</h1></header>
             
             
-            <section><ul>
-<li>Opleveren via mail</li>
-<li>.zip, git link, ... maakt niet uit</li>
-<li>Beperkt aantal opdrachten, wegen wel harder door</li>
-</ul>
-<h1>Evaluatiemomenten</h1>
-<ul>
-<li>Komen op Toledo</li>
-<li>"Waarom" is belangrijker dan dat het effectief af is</li>
-<li>Geen punten op layout (programmeerles != designles)</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2 </span><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="lineno"> 3 </span>
+<span class="lineno"> 4 </span><span class="k">namespace</span> <span class="nn">Hello</span>
+<span class="lineno"> 5 </span><span class="p">{</span>
+<span class="lineno"> 6 </span>  <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno"> 7 </span>  <span class="p">{</span>
+<span class="lineno"> 8 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno"> 9 </span>    <span class="p">{</span>
+<span class="lineno">10 </span>      <span class="kt">var</span> <span class="n">myInt</span> <span class="p">=</span> <span class="m">12</span><span class="p">;</span>
+<span class="lineno">11 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myInt)}: {myInt / 5}&quot;</span><span class="p">);</span>
+<span class="lineno">12 </span>
+<span class="lineno">13 </span>      <span class="kt">var</span> <span class="n">myDouble</span> <span class="p">=</span> <span class="m">12d</span><span class="p">;</span>
+<span class="lineno">14 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myDouble)}: {myDouble / 5}&quot;</span><span class="p">);</span>
+<span class="lineno">15 </span>
+<span class="lineno">16 </span>      <span class="kt">var</span> <span class="n">myString</span> <span class="p">=</span> <span class="s">&quot;abc&quot;</span><span class="p">;</span>
+<span class="lineno">17 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myString)}: {myString}&quot;</span><span class="p">);</span>
+<span class="lineno">18 </span>    <span class="p">}</span>
+<span class="lineno">19 </span>  <span class="p">}</span>
+<span class="lineno">20 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -215,29 +242,46 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              5/9
+              5/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-6">
+        <div class="slide has_code slide-6">
           <div class="inner">
             
-            <header><h1>Vragen</h1></header>
+            <header><h1>Verschillende types - Collecties</h1></header>
             
             
-            <section><ul>
-<li>In de les</li>
-<li>Via mail</li>
-<li>Bereikbaar op dinsdag (na afspraak)</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2 </span><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="lineno"> 3 </span>
+<span class="lineno"> 4 </span><span class="k">namespace</span> <span class="nn">Hello</span>
+<span class="lineno"> 5 </span><span class="p">{</span>
+<span class="lineno"> 6 </span>  <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno"> 7 </span>  <span class="p">{</span>
+<span class="lineno"> 8 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno"> 9 </span>    <span class="p">{</span>
+<span class="lineno">10 </span>      <span class="kt">var</span> <span class="n">myArray</span> <span class="p">=</span> <span class="k">new</span><span class="p">[]</span> <span class="p">{</span> <span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="s">&quot;b&quot;</span><span class="p">,</span> <span class="s">&quot;c&quot;</span> <span class="p">};</span>
+<span class="lineno">11 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myArray)}: {string.Join(&quot;</span><span class="p">,</span><span class="s">&quot;, myArray)}&quot;</span><span class="p">);</span>
+<span class="lineno">12 </span>
+<span class="lineno">13 </span>      <span class="kt">var</span> <span class="n">myList</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="p">{</span> <span class="s">&quot;x&quot;</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">,</span> <span class="s">&quot;z&quot;</span><span class="p">,</span> <span class="s">&quot;z&quot;</span> <span class="p">};</span>
+<span class="lineno">14 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myList)}: {string.Join(&quot;</span><span class="p">,</span><span class="s">&quot;, myList)}&quot;</span><span class="p">);</span>
+<span class="lineno">15 </span>
+<span class="lineno">16 </span>      <span class="kt">var</span> <span class="n">mySet</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="p">{</span> <span class="s">&quot;x&quot;</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">,</span> <span class="s">&quot;z&quot;</span><span class="p">,</span> <span class="s">&quot;z&quot;</span> <span class="p">};</span>
+<span class="lineno">17 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(mySet)}: {string.Join(&quot;</span><span class="p">,</span><span class="s">&quot;, mySet)}&quot;</span><span class="p">);</span>
+<span class="lineno">18 </span>    <span class="p">}</span>
+<span class="lineno">19 </span>  <span class="p">}</span>
+<span class="lineno">20 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -249,28 +293,49 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              6/9
+              6/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-7">
+        <div class="slide has_code slide-7">
           <div class="inner">
             
-            <header><h1>Examen</h1></header>
+            <header><h1>Itereren</h1></header>
             
             
-            <section><ul>
-<li>Praktische opdracht op voorhand uitwerken</li>
-<li>Mondeling verdedigen</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2 </span><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="lineno"> 3 </span>
+<span class="lineno"> 4 </span><span class="k">namespace</span> <span class="nn">Hello</span>
+<span class="lineno"> 5 </span><span class="p">{</span>
+<span class="lineno"> 6 </span>  <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno"> 7 </span>  <span class="p">{</span>
+<span class="lineno"> 8 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno"> 9 </span>    <span class="p">{</span>
+<span class="lineno">10 </span>      <span class="kt">var</span> <span class="n">myArray</span> <span class="p">=</span> <span class="k">new</span><span class="p">[]</span> <span class="p">{</span> <span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="s">&quot;b&quot;</span><span class="p">,</span> <span class="s">&quot;c&quot;</span> <span class="p">};</span>
+<span class="lineno">11 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{nameof(myArray)}: {string.Join(&quot;</span><span class="p">,</span><span class="s">&quot;, myArray)}&quot;</span><span class="p">);</span>
+<span class="lineno">12 </span>
+<span class="lineno">13 </span>      <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">character</span> <span class="k">in</span> <span class="n">myArray</span><span class="p">)</span>
+<span class="lineno">14 </span>      <span class="p">{</span>
+<span class="lineno">15 </span>        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+<span class="lineno">16 </span>      <span class="p">}</span>
+<span class="lineno">17 </span>      <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">myArray</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+<span class="lineno">18 </span>      <span class="p">{</span>
+<span class="lineno">19 </span>        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{i} - {myArray[i]}&quot;</span><span class="p">);</span>
+<span class="lineno">20 </span>      <span class="p">}</span>
+<span class="lineno">21 </span>    <span class="p">}</span>
+<span class="lineno">22 </span>  <span class="p">}</span>
+<span class="lineno">23 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -282,30 +347,39 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              7/9
+              7/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-8">
+        <div class="slide has_code slide-8">
           <div class="inner">
             
-            <header><h1>Wat gaan we leren</h1></header>
+            <header><h1>Linq</h1></header>
             
             
-            <section><ul>
-<li>We gaan een website, starting from scratch</li>
-<li>Concentreren op CRUD-operaties</li>
-<li>Analyse, database, ...</li>
-<li><code>C#</code> en Razor</li>
-</ul></section>
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="kt">var</span> <span class="n">myCollection</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="p">{</span> <span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="s">&quot;b&quot;</span><span class="p">,</span> <span class="s">&quot;c&quot;</span> <span class="p">};</span>
+<span class="lineno"> 2 </span><span class="n">myCollection</span>
+<span class="lineno"> 3 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">ToUpper</span><span class="p">())</span>
+<span class="lineno"> 4 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
+<span class="lineno"> 5 </span><span class="p">{</span>
+<span class="lineno"> 6 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+<span class="lineno"> 7 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
+<span class="lineno"> 8 </span><span class="p">})</span>
+<span class="lineno"> 9 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
+<span class="lineno">10 </span><span class="p">{</span>
+<span class="lineno">11 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">ToLower</span><span class="p">());</span>
+<span class="lineno">12 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
+<span class="lineno">13 </span><span class="p">}).</span><span class="n">ToList</span><span class="p">();</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -317,23 +391,43 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              8/9
+              8/11
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: .\20180919.md -->
+      <!-- slide source: .\20180926.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-9">
+        <div class="slide has_code slide-9">
           <div class="inner">
             
-            <header><h1>Vragen?</h1></header>
+            <header><h1>Classes</h1></header>
             
+            
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">public</span> <span class="k">class</span> <span class="nc">Cat</span>
+<span class="lineno"> 2 </span><span class="p">{</span>
+<span class="lineno"> 3 </span>  <span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno"> 4 </span>  <span class="k">public</span> <span class="k">void</span> <span class="nf">Pur</span><span class="p">()</span>
+<span class="lineno"> 5 </span>  <span class="p">{</span>
+<span class="lineno"> 6 </span>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{Name} says PURRRRRRRRRRRRRRRRR&quot;</span><span class="p">);</span>
+<span class="lineno"> 7 </span>  <span class="p">}</span>
+<span class="lineno"> 8 </span><span class="p">}</span>
+<span class="lineno"> 9 </span><span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno">10 </span><span class="p">{</span>
+<span class="lineno">11 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno">12 </span>  <span class="p">{</span>
+<span class="lineno">13 </span>    <span class="kt">var</span> <span class="n">cat</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Loki&quot;</span> <span class="p">};</span>
+<span class="lineno">14 </span>    <span class="n">cat</span><span class="p">.</span><span class="n">Pur</span><span class="p">();</span>
+<span class="lineno">15 </span>    <span class="k">new</span> <span class="nf">Cat</span><span class="p">().</span><span class="n">Pur</span><span class="p">();</span>
+<span class="lineno">16 </span>  <span class="p">}</span>
+<span class="lineno">17 </span><span class="p">}</span>
+</pre></div>
+</section>
             
           </div>
           <div class="presenter_notes">
@@ -345,11 +439,145 @@
           <footer>
             
             <aside class="source">
-              Source: <a href=".\20180919.md">.\20180919.md</a>
+              Source: <a href=".\20180926.md">.\20180926.md</a>
             </aside>
             
             <aside class="page_number">
-              9/9
+              9/11
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\20180926.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code slide-10">
+          <div class="inner">
+            
+            <header><h1>Abstract Classes</h1></header>
+            
+            
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">public</span> <span class="k">abstract</span> <span class="k">class</span> <span class="nc">Animal</span>
+<span class="lineno"> 2 </span><span class="p">{</span>
+<span class="lineno"> 3 </span>  <span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno"> 4 </span>  <span class="k">public</span> <span class="k">abstract</span> <span class="k">void</span> <span class="nf">Interact</span><span class="p">();</span>
+<span class="lineno"> 5 </span><span class="p">}</span>
+<span class="lineno"> 6 </span>
+<span class="lineno"> 7 </span><span class="k">public</span> <span class="k">class</span> <span class="nc">Dog</span> <span class="p">:</span> <span class="n">Animal</span>
+<span class="lineno"> 8 </span><span class="p">{</span>
+<span class="lineno"> 9 </span>  <span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">Interact</span><span class="p">()</span>
+<span class="lineno">10 </span>  <span class="p">{</span>
+<span class="lineno">11 </span>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{Name} says ARF&quot;</span><span class="p">);</span>
+<span class="lineno">12 </span>  <span class="p">}</span>
+<span class="lineno">13 </span><span class="p">}</span>
+<span class="lineno">14 </span>
+<span class="lineno">15 </span><span class="k">public</span> <span class="k">class</span> <span class="nc">Cat</span> <span class="p">:</span> <span class="n">Animal</span>
+<span class="lineno">16 </span><span class="p">{</span>
+<span class="lineno">17 </span>  <span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">Interact</span><span class="p">()</span>
+<span class="lineno">18 </span>  <span class="p">{</span>
+<span class="lineno">19 </span>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{Name} says MRAWWWW&quot;</span><span class="p">);</span>
+<span class="lineno">20 </span>  <span class="p">}</span>
+<span class="lineno">21 </span><span class="p">}</span>
+<span class="lineno">22 </span>
+<span class="lineno">23 </span><span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno">24 </span><span class="p">{</span>
+<span class="lineno">25 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno">26 </span>  <span class="p">{</span>
+<span class="lineno">27 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Loki&quot;</span> <span class="p">});</span>
+<span class="lineno">28 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
+<span class="lineno">29 </span>  <span class="p">}</span>
+<span class="lineno">30 </span>
+<span class="lineno">31 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">DoSomething</span><span class="p">(</span><span class="n">Animal</span> <span class="n">animal</span><span class="p">)</span> 
+<span class="lineno">32 </span>  <span class="p">{</span>
+<span class="lineno">33 </span>    <span class="n">animal</span><span class="p">.</span><span class="n">Interact</span><span class="p">();</span>
+<span class="lineno">34 </span>  <span class="p">}</span>
+<span class="lineno">35 </span><span class="p">}</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\20180926.md">.\20180926.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/11
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\20180926.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code slide-11">
+          <div class="inner">
+            
+            <header><h1>Interfaces</h1></header>
+            
+            
+            <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="k">public</span> <span class="k">interface</span> <span class="n">IAnimal</span>
+<span class="lineno"> 2 </span><span class="p">{</span>
+<span class="lineno"> 3 </span>  <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno"> 4 </span>  <span class="k">void</span> <span class="nf">Interact</span><span class="p">();</span>
+<span class="lineno"> 5 </span><span class="p">}</span>
+<span class="lineno"> 6 </span>
+<span class="lineno"> 7 </span><span class="k">public</span> <span class="k">class</span> <span class="nc">Dog</span> <span class="p">:</span> <span class="n">IAnimal</span>
+<span class="lineno"> 8 </span><span class="p">{</span>
+<span class="lineno"> 9 </span>  <span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">10 </span>  <span class="k">public</span> <span class="k">void</span> <span class="nf">Interact</span><span class="p">()</span>
+<span class="lineno">11 </span>  <span class="p">{</span>
+<span class="lineno">12 </span>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{Name} says ARF&quot;</span><span class="p">);</span>
+<span class="lineno">13 </span>  <span class="p">}</span>
+<span class="lineno">14 </span><span class="p">}</span>
+<span class="lineno">15 </span>
+<span class="lineno">16 </span><span class="k">public</span> <span class="k">class</span> <span class="nc">Cat</span> <span class="p">:</span> <span class="n">IAnimal</span>
+<span class="lineno">17 </span><span class="p">{</span>
+<span class="lineno">18 </span>  <span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">19 </span>  <span class="k">public</span> <span class="k">void</span> <span class="nf">Interact</span><span class="p">()</span>
+<span class="lineno">20 </span>  <span class="p">{</span>
+<span class="lineno">21 </span>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{Name} says MRAWWWW&quot;</span><span class="p">);</span>
+<span class="lineno">22 </span>  <span class="p">}</span>
+<span class="lineno">23 </span><span class="p">}</span>
+<span class="lineno">24 </span>
+<span class="lineno">25 </span><span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno">26 </span><span class="p">{</span>
+<span class="lineno">27 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno">28 </span>  <span class="p">{</span>
+<span class="lineno">29 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Loki&quot;</span> <span class="p">});</span>
+<span class="lineno">30 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
+<span class="lineno">31 </span>  <span class="p">}</span>
+<span class="lineno">32 </span>
+<span class="lineno">33 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">DoSomething</span><span class="p">(</span><span class="n">IAnimal</span> <span class="n">animal</span><span class="p">)</span>
+<span class="lineno">34 </span>  <span class="p">{</span>
+<span class="lineno">35 </span>    <span class="n">animal</span><span class="p">.</span><span class="n">Interact</span><span class="p">();</span>
+<span class="lineno">36 </span>  <span class="p">}</span>
+<span class="lineno">37 </span><span class="p">}</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\20180926.md">.\20180926.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/11
             </aside>
           </footer>
         </div>
@@ -376,44 +604,56 @@
       
       
       <tr id="toc-row-3">
-        <th><a href="#slide3">Wie ben ik?</a></th>
+        <th><a href="#slide3">Hello World</a></th>
         <td><a href="#slide3">3</a></td>
       </tr>
       
       
       <tr id="toc-row-4">
-        <th><a href="#slide4">Manier lesgeven</a></th>
+        <th><a href="#slide4">Variabelen</a></th>
         <td><a href="#slide4">4</a></td>
       </tr>
       
       
       <tr id="toc-row-5">
-        <th><a href="#slide5">Opdrachten</a></th>
+        <th><a href="#slide5">Verschillende types - Basic</a></th>
         <td><a href="#slide5">5</a></td>
       </tr>
       
       
       <tr id="toc-row-6">
-        <th><a href="#slide6">Vragen</a></th>
+        <th><a href="#slide6">Verschillende types - Collecties</a></th>
         <td><a href="#slide6">6</a></td>
       </tr>
       
       
       <tr id="toc-row-7">
-        <th><a href="#slide7">Examen</a></th>
+        <th><a href="#slide7">Itereren</a></th>
         <td><a href="#slide7">7</a></td>
       </tr>
       
       
       <tr id="toc-row-8">
-        <th><a href="#slide8">Wat gaan we leren</a></th>
+        <th><a href="#slide8">Linq</a></th>
         <td><a href="#slide8">8</a></td>
       </tr>
       
       
       <tr id="toc-row-9">
-        <th><a href="#slide9">Vragen?</a></th>
+        <th><a href="#slide9">Classes</a></th>
         <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Abstract Classes</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">Interfaces</a></th>
+        <td><a href="#slide11">11</a></td>
       </tr>
       
       

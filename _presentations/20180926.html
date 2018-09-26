@@ -142,6 +142,11 @@
             <header><h1>Presenter Notes</h1></header>
             <section>
             
+              <ul>
+<li>namespace &amp; using =&gt; zo moeten je classes geen globale, unieke namen hebben.</li>
+<li>static void Main(string[] args) is de defactor entrypoint van een applicatie.</li>
+</ul>
+            
             </section>
           </div>
           <footer>
@@ -187,6 +192,11 @@
             <header><h1>Presenter Notes</h1></header>
             <section>
             
+              <ul>
+<li>bij var gaat de compiler zelf extrapoleren wat het type is door naar de assignment zelf te kijken</li>
+<li>$"..." is string interpolatie; alles tussen de accolades wordt geintepreteerd at runtime</li>
+</ul>
+            
             </section>
           </div>
           <footer>
@@ -231,7 +241,11 @@
 <span class="lineno">19 </span>  <span class="p">}</span>
 <span class="lineno">20 </span><span class="p">}</span>
 </pre></div>
-</section>
+
+<h1>Presentation Notes</h1>
+<ul>
+<li>Generics; type safe compilen van complexere objecten.</li>
+</ul></section>
             
           </div>
           <div class="presenter_notes">
@@ -388,6 +402,10 @@
             <header><h1>Presenter Notes</h1></header>
             <section>
             
+              <ul>
+<li>Altijd 3 delen: data; query aanmaken; query uitvoeren.</li>
+</ul>
+            
             </section>
           </div>
           <footer>
@@ -486,7 +504,7 @@
 <span class="lineno">25 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
 <span class="lineno">26 </span>  <span class="p">{</span>
 <span class="lineno">27 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Loki&quot;</span> <span class="p">});</span>
-<span class="lineno">28 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
+<span class="lineno">28 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Dog</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
 <span class="lineno">29 </span>  <span class="p">}</span>
 <span class="lineno">30 </span>
 <span class="lineno">31 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">DoSomething</span><span class="p">(</span><span class="n">Animal</span> <span class="n">animal</span><span class="p">)</span> 
@@ -554,7 +572,7 @@
 <span class="lineno">27 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
 <span class="lineno">28 </span>  <span class="p">{</span>
 <span class="lineno">29 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Loki&quot;</span> <span class="p">});</span>
-<span class="lineno">30 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Cat</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
+<span class="lineno">30 </span>    <span class="n">DoSomething</span><span class="p">(</span><span class="k">new</span> <span class="n">Dog</span><span class="p">()</span> <span class="p">{</span> <span class="n">Name</span> <span class="p">=</span> <span class="s">&quot;Cujo&quot;</span> <span class="p">});</span>
 <span class="lineno">31 </span>  <span class="p">}</span>
 <span class="lineno">32 </span>
 <span class="lineno">33 </span>  <span class="k">static</span> <span class="k">void</span> <span class="nf">DoSomething</span><span class="p">(</span><span class="n">IAnimal</span> <span class="n">animal</span><span class="p">)</span>

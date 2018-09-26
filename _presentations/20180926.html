@@ -73,7 +73,7 @@
             </aside>
             
             <aside class="page_number">
-              1/11
+              1/12
             </aside>
           </footer>
         </div>
@@ -90,7 +90,8 @@
             <section><ul>
 <li>Hello World</li>
 <li>Variabelen</li>
-<li></li>
+<li>Types</li>
+<li>OO Programmeren</li>
 </ul></section>
             
           </div>
@@ -107,7 +108,7 @@
             </aside>
             
             <aside class="page_number">
-              2/11
+              2/12
             </aside>
           </footer>
         </div>
@@ -150,7 +151,7 @@
             </aside>
             
             <aside class="page_number">
-              3/11
+              3/12
             </aside>
           </footer>
         </div>
@@ -172,7 +173,7 @@
 <span class="lineno"> 6 </span>  <span class="p">{</span>
 <span class="lineno"> 7 </span>    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
 <span class="lineno"> 8 </span>    <span class="p">{</span>
-<span class="lineno"> 9 </span>      <span class="n">String</span> <span class="n">name</span> <span class="p">=</span> <span class="s">&quot;xyz&quot;</span><span class="p">;</span>
+<span class="lineno"> 9 </span>      <span class="kt">string</span> <span class="n">name</span> <span class="p">=</span> <span class="s">&quot;xyz&quot;</span><span class="p">;</span>
 <span class="lineno">10 </span>      <span class="kt">var</span> <span class="n">nameAsVar</span> <span class="p">=</span> <span class="s">&quot;abc&quot;</span><span class="p">;</span>
 <span class="lineno">11 </span>      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{name} - {nameAsVar}&quot;</span><span class="p">);</span>
 <span class="lineno">12 </span>    <span class="p">}</span>
@@ -195,7 +196,7 @@
             </aside>
             
             <aside class="page_number">
-              4/11
+              4/12
             </aside>
           </footer>
         </div>
@@ -246,7 +247,7 @@
             </aside>
             
             <aside class="page_number">
-              5/11
+              5/12
             </aside>
           </footer>
         </div>
@@ -297,7 +298,7 @@
             </aside>
             
             <aside class="page_number">
-              6/11
+              6/12
             </aside>
           </footer>
         </div>
@@ -351,7 +352,7 @@
             </aside>
             
             <aside class="page_number">
-              7/11
+              7/12
             </aside>
           </footer>
         </div>
@@ -367,17 +368,18 @@
             
             <section><div class="highlight"><pre><span></span><span class="lineno"> 1 </span><span class="kt">var</span> <span class="n">myCollection</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="p">{</span> <span class="s">&quot;a&quot;</span><span class="p">,</span> <span class="s">&quot;b&quot;</span><span class="p">,</span> <span class="s">&quot;c&quot;</span> <span class="p">};</span>
 <span class="lineno"> 2 </span><span class="n">myCollection</span>
-<span class="lineno"> 3 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">ToUpper</span><span class="p">())</span>
-<span class="lineno"> 4 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
-<span class="lineno"> 5 </span><span class="p">{</span>
-<span class="lineno"> 6 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
-<span class="lineno"> 7 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
-<span class="lineno"> 8 </span><span class="p">})</span>
-<span class="lineno"> 9 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
-<span class="lineno">10 </span><span class="p">{</span>
-<span class="lineno">11 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">ToLower</span><span class="p">());</span>
-<span class="lineno">12 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
-<span class="lineno">13 </span><span class="p">}).</span><span class="n">ToList</span><span class="p">();</span>
+<span class="lineno"> 3 </span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span> <span class="p">!=</span>  <span class="s">&quot;C&quot;</span><span class="p">)</span>
+<span class="lineno"> 4 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">ToUpper</span><span class="p">())</span>
+<span class="lineno"> 5 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
+<span class="lineno"> 6 </span><span class="p">{</span>
+<span class="lineno"> 7 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+<span class="lineno"> 8 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
+<span class="lineno"> 9 </span><span class="p">})</span>
+<span class="lineno">10 </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span>
+<span class="lineno">11 </span><span class="p">{</span>
+<span class="lineno">12 </span>  <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">ToLower</span><span class="p">());</span>
+<span class="lineno">13 </span>  <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
+<span class="lineno">14 </span><span class="p">}).</span><span class="n">ToList</span><span class="p">();</span>
 </pre></div>
 </section>
             
@@ -395,7 +397,7 @@
             </aside>
             
             <aside class="page_number">
-              8/11
+              8/12
             </aside>
           </footer>
         </div>
@@ -443,7 +445,7 @@
             </aside>
             
             <aside class="page_number">
-              9/11
+              9/12
             </aside>
           </footer>
         </div>
@@ -509,7 +511,7 @@
             </aside>
             
             <aside class="page_number">
-              10/11
+              10/12
             </aside>
           </footer>
         </div>
@@ -577,7 +579,44 @@
             </aside>
             
             <aside class="page_number">
-              11/11
+              11/12
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\20180926.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-12">
+          <div class="inner">
+            
+            <header><h1>Links</h1></header>
+            
+            
+            <section><ul>
+<li><a href="https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md">Coding Standards</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables">Types &amp; Variables</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes">Classes</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers">Access Modifiers</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq">Linq - Query Syntax</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries">Linq - Introduction</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\20180926.md">.\20180926.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/12
             </aside>
           </footer>
         </div>
@@ -654,6 +693,12 @@
       <tr id="toc-row-11">
         <th><a href="#slide11">Interfaces</a></th>
         <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Links</a></th>
+        <td><a href="#slide12">12</a></td>
       </tr>
       
       

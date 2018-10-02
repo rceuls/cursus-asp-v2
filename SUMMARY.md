@@ -10,3 +10,4 @@
     * [Object Oriented Programming (in C#)](chapter-2-csharp/object-oriented.md)
 * [Deel III - Razor](chapter-3-razor/README.md)
     * [Syntax](chapter-3-razor/syntax.md)
+    * [Strongly Typed Models](chapter-3-razor/mvc.md)

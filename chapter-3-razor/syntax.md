@@ -5,8 +5,7 @@
 
 ## Disable HTTPS
 * Open `Startup.cs`
-* Zet lijn 51 in commentaar (`// app.UseHttpsRedirection()`);
-)
+* Zet lijn 51 in commentaar (`// app.UseHttpsRedirection()`).
 
 ## Nieuwe pagina maken
 1. Open `Controllers\HomeController.cs`

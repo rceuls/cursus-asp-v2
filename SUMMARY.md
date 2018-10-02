@@ -11,3 +11,4 @@
 * [Deel III - Razor](chapter-3-razor/README.md)
     * [Syntax](chapter-3-razor/syntax.md)
     * [Strongly Typed Models](chapter-3-razor/mvc.md)
+    * [Tag Helpers](chapter-3-razor/tag-helpers.md)

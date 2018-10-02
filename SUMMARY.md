@@ -8,3 +8,5 @@
     * [Syntax](chapter-2-csharp/syntax.md)
     * [Iteraties](chapter-2-csharp/iteration.md)
     * [Object Oriented Programming (in C#)](chapter-2-csharp/object-oriented.md)
+* [Deel III - Razor](chapter-3-razor/README.md)
+    * [Syntax](chapter-3-razor/syntax.md)

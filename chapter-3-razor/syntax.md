@@ -10,12 +10,14 @@
 ## Nieuwe pagina maken
 1. Open `Controllers\HomeController.cs`
 2. Maak daar een nieuwe route aan met de volgende code:
+
 ```cs
 public IActionResult Hello()
 {
     return View();
 }
-``` 
+```
+
 3. Maak een `Hello.cshtml` pagina aan in `Views\Home`
 
 _By convention_ is het zo dat een controller actie met een bepaalde naam 1:1 gemapt zal worden op de view met dezelfde naam.

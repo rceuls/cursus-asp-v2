@@ -5,6 +5,7 @@
 * Een console project is een project dat een executable maakt dat gerunned kan worden met behulp van de .NET core runtime.
 
 ## Algemene Structuur 
+
 ```cs
 using System; // <1> 
 
@@ -19,6 +20,7 @@ namespace CSharpIntro // <2>
     }
 }
 ```
+
 1. De `using` block geeft aan dat er classes van een externe namespace gebruikt worden en waar je ze kan vinden.
 
 2. De `namespace` is de namespace van de applicatie. Dit is een logische onderverdeling binnen de applicatie en wordt ook exposed naar alle code die gebruik maakt van onze code. Je bepaalt deze binnen je eigen applicatie/libraries grotendeels zelf.

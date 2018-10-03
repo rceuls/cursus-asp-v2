@@ -12,3 +12,5 @@
     * [Syntax](chapter-3-razor/syntax.md)
     * [Strongly Typed Models](chapter-3-razor/mvc.md)
     * [Tag Helpers](chapter-3-razor/tag-helpers.md)
+* [Deel IV - Controllers](chapter-4-controllers/README.md)
+    * [Basisbegrippen](chapter-4-controllers/routing.md)

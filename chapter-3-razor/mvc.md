@@ -16,7 +16,7 @@ Dit is een DTO (een data transfer object). Dit object mag onder geen beding logi
 
 Maak een nieuwe class aan in de namespace `Models`
 
-```csharp
+```cs
 public class BaseModel
 {
   public string FirstName { get; set; }
@@ -43,7 +43,7 @@ Merk op dat de eerste lijn `@model` schrijft met een kleine letter en de daaropv
 
 De controller "vult" het model op met data en geeft het mee als een parameter aan de `return View()` call.
 
-```csharp
+```cs
 public IActionResult Hello()
 {
   return View(new BaseModel() { FirstName = "Raf", LastName = "Ceuls" });

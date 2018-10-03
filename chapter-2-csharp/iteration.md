@@ -1,4 +1,4 @@
-```csharp
+```cs
 using System;
 
 namespace CSharpIntro

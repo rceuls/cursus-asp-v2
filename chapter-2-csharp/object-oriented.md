@@ -16,7 +16,7 @@
 
 # In C#
 ## Class
-```csharp
+```cs
 public class Cat 
 {
     public string Name { get; set; }
@@ -25,7 +25,7 @@ public class Cat
 ```
 
 ## Objects
-```csharp
+```cs
 public class Program
 {
     static void Main(string[] args)
@@ -40,7 +40,7 @@ public class Program
 ```
 
 ## Inheritance
-```csharp
+```cs
 public abstract class Animal
 {
     public string Name { get; set; }
@@ -86,7 +86,7 @@ class Program
 ```
 
 ## Encapsulation
-```csharp
+```cs
 public class Cat 
 {
     public Cat()
@@ -126,7 +126,7 @@ Access modifiers bepalen wat er toegang heeft tot fields/functions van een bepaa
 * Implementatie is klasse-afhankelijk.
 * Veel gebruikt; belangrijk voor dependency injection.
 
-```csharp
+```cs
 public interface IHaveAName
 {
     string Name { get; set; }

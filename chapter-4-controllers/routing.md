@@ -12,7 +12,7 @@ Het is niet verplicht om dit via controllers af te handelen, maar het is wel de 
 
 Vergelijk de volgende twee controller methodes:
 
-```csharp
+```cs
 [Controller]
   [Route("home")]
   public class HomeController : Controller
@@ -44,7 +44,7 @@ Vergelijk de volgende twee controller methodes:
 
 ### Route Parameters
 
-```csharp
+```cs
 // home/hello?raf/ceuls
 [HttpGet("hello/{firstname}/{lastname}")]
 public IActionResult Hello([FromRoute]string firstname,   [FromRoute]string lastname)
@@ -59,7 +59,7 @@ public IActionResult Hello([FromRoute]string firstname,   [FromRoute]string last
 
 ### Query Parameters
 
-```csharp
+```cs
 // /home/hello?firstname=raf
 // /home/hello?firstname=jos&lastname=vermeulen
 // /home/hello
@@ -76,7 +76,7 @@ public IActionResult Hello([FromQuery]string firstname, [FromQuery]string lastna
 
 ### Complexe objecten
 
-```csharp
+```cs
 public class Person
 {
   public string FirstName { get; set; }
@@ -99,7 +99,7 @@ public IActionResult Hello([FromQuery]Person person)
 
 ### POST - Form parameters
 
-```csharp
+```cs
 [HttpPost("hello")]
 public IActionResult SaveHello([FromForm]Person person)
 {
@@ -117,7 +117,7 @@ Dit kan je aanroepen door met postman de volgende call te doen:
 
 ### POST - Body
 
-```csharp
+```cs
 [HttpPost("hello")]
 public IActionResult SaveHello([FromBody]Person person)
 {

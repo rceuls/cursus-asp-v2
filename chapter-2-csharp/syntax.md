@@ -5,7 +5,7 @@
 * Een console project is een project dat een executable maakt dat gerunned kan worden met behulp van de .NET core runtime.
 
 ## Algemene Structuur 
-```csharp
+```cs
 using System; // <1> 
 
 namespace CSharpIntro // <2>
@@ -30,7 +30,7 @@ namespace CSharpIntro // <2>
 5. Dit is een statement. Deze gaat uitgevoerd worden in de applicatie als de functie waarin het statement staat aangeroepen wordt.
 
 ## Variabelen
-```csharp
+```cs
 using System;
 
 namespace CSharpIntro
@@ -64,7 +64,7 @@ namespace CSharpIntro
 ```
  
 ## Conditionals 
-```csharp
+```cs
 using System;
 
 namespace CSharpIntro

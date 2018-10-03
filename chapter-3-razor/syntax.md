@@ -10,7 +10,7 @@
 ## Nieuwe pagina maken
 1. Open `Controllers\HomeController.cs`
 2. Maak daar een nieuwe route aan met de volgende code:
-```csharp
+```cs
 public IActionResult Hello()
 {
     return View();
@@ -51,7 +51,7 @@ else{
 
 2. Pas `HomeController.cs` aan:
 
-```csharp
+```cs
 public IActionResult Hello()
 {
   ViewData["CurrentDate"] = DateTime.Now;

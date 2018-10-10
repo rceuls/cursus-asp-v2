@@ -51,8 +51,8 @@ public IActionResult Hello([FromRoute]string firstname,   [FromRoute]string last
 {
   return View(new BaseModel()
   {
-    FirstName = person.FirstName,
-    LastName = person.LastName
+    FirstName = firstName,
+    LastName = lastName
   });
 }
 ```

@@ -10,6 +10,7 @@
   * `DataContext` is de eigenlijke connectie met je database.
 
 Hieronder kan je een simplistisch voorbeeld van een DataContext (`BloggingContext`) en een paar enteiten (`Blog` en `Post`).
+
 ```csharp
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -68,3 +69,7 @@ namespace Intro
 * Superhandig om snel een proof of concept uit te werken.
 * Meer info [hier](https://docs.microsoft.com/en-us/ef/core/miscellaneous/testing/in-memory).
 
+## Installatie
+
+* Voer het volgende uit in het mapje van waar je `*.csproj` staat: `dotnet add package Microsoft.EntityFrameworkCore.InMemory`.
+    * Dit installeert uiteraard alleen maar de `InMemory` database; als je een echte relationele database wenst te verbinden moet je de provider nog installeren. Raadpleeg daarvoor de documentatie van je database provider.

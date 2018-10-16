@@ -13,5 +13,16 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+2. In je controller kan je de DataContext injecten via je constructor, bv 
 
+```charp
+private PersonContext _personContext;
+
+public HomeController(PersonContext personContext)
+{
+  _personContext = personContext;
+}
+```
+
+3. Voor een uitgewerkt voorbeeld kan je naar dit voorbeeldproject kijken waarin een basis CRUD applicatie staat.
 

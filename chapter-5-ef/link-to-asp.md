@@ -24,5 +24,5 @@ public HomeController(PersonContext personContext)
 }
 ```
 
-3. Voor een uitgewerkt voorbeeld kan je naar dit voorbeeldproject kijken waarin een basis CRUD applicatie staat.
+3. Voor een uitgewerkt voorbeeld kan je naar [dit voorbeeldproject](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/EntityFrameworkMvc) kijken waarin een basis CRUD applicatie staat.
 

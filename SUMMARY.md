@@ -14,3 +14,6 @@
     * [Tag Helpers](chapter-3-razor/tag-helpers.md)
 * [Deel IV - Controllers](chapter-4-controllers/README.md)
     * [Basisbegrippen](chapter-4-controllers/routing.md)
+* [Deel V - Entity Framework](chapter-5-ef/README.md)
+    * [Basisbegrippen](chapter-5-ef/entityframework.md)
+    * [Integratie ASP.NET MVC](chapter-5-ef/link-to-asp.md)

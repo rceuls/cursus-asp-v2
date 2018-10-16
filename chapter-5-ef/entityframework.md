@@ -1,8 +1,8 @@
 # Entity Framework
 
 * Dient als een ORM (object-relational-mapper).
-* Zorgt er voor dat je geen SQL dien te schrijven
-* DataAccess verloopt via een model (niet te verwarren met de 'M' in 'MVC')
+* Zorgt er voor dat je geen SQL dien te schrijven.
+* DataAccess verloopt via een model (niet te verwarren met de 'M' in 'MVC').
 
 ## Model
 * Een model bestaat uit classes voor entiteiten en een datacontext.

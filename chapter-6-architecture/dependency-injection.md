@@ -45,6 +45,23 @@ Dit moet je in je `Startup.cs` zetten (in de methode ); je zegt tegen de service
 services.AddScoped<IMyService, MyServiceImpl>();
 ```
 
+Stel dat je ergens een tweede component hebt staan die `IMyService` implementeert
+
+```csharp
+public class MyOtherServiceImpl : IMyService {
+  public void DoStuff() {
+
+  }
+}
+```
+
+Het enige dat je dan moet aanpassen is in je startup het volgende
+```csharp
+services.AddScoped<IMyService, MyOtherServiceImpl>();
+```
+
+Voor de rest blijft de code hetzelfde.
+
 ## Lifetimes
 Een component heeft één van drie lifetimes
 

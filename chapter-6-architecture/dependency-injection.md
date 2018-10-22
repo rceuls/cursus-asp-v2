@@ -51,3 +51,6 @@ Een component heeft één van drie lifetimes
 * Een **Transient** component wordt elke keer aangemaakt als je ze opvraagt;
 * Een **Scoped** component wordt één keer per request aangemaakt.
 * Een **Singleton** component wordt één keer aangemaakt per applicatie.
+
+## Impliciete registraties
+Sommige componenten worden onrechtstreeks geregistreerd als je bijvoorbeeld Entity Framework toevoegt; denk maar aan de Datacontext. Dit staat meestal in de documentatie van de library.

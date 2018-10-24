@@ -8,7 +8,7 @@
 public void ConfigureServices(IServiceCollection services)
 {
   ...
-    services.AddDbContext<PersonContext>(opt => opt.UseInMemoryDatabase(Guid.NewGuid().ToString()));
+    services.AddDbContext<PersonContext>(opt => opt.UseInMemoryDatabase("myUniqueName"));
   ...
 }
 ```

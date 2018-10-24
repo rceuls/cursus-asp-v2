@@ -60,7 +60,7 @@ Het enige dat je dan moet aanpassen is in je startup het volgende
 services.AddScoped<IMyService, MyOtherServiceImpl>();
 ```
 
-Voor de rest blijft de code hetzelfde.
+Voor de rest blijft de code hetzelfde. 
 
 ## Lifetimes
 Een component heeft één van drie lifetimes

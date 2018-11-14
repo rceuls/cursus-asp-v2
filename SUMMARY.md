@@ -12,6 +12,7 @@
     * [Syntax](chapter-3-razor/syntax.md)
     * [Strongly Typed Models](chapter-3-razor/mvc.md)
     * [Tag Helpers](chapter-3-razor/tag-helpers.md)
+    * [Validatie](chapter-3-razor/validation.md)
 * [Deel IV - Controllers](chapter-4-controllers/README.md)
     * [Basisbegrippen](chapter-4-controllers/routing.md)
 * [Deel V - Entity Framework](chapter-5-ef/README.md)
@@ -19,4 +20,3 @@
     * [Integratie ASP.NET MVC](chapter-5-ef/link-to-asp.md)
 * [Deel VI - Architectuur](chapter-6-architecture/README.md)
     * [Dependency Injection](chapter-6-architecture/dependency-injection.md)
-    

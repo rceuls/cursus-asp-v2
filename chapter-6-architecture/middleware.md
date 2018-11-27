@@ -1,5 +1,7 @@
 # Middleware & filters
 
+Voorbeeldcode is beschikbaar via [github](https://github.com/rceuls/cursus-asp-v2-examples/tree/master/CSharp-Pline).
+
 ## Middleware
 
 * Is een onderdeel van de zogenaamde "app pipeline".

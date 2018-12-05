@@ -22,3 +22,4 @@
 * [Deel VI - Architectuur](chapter-6-architecture/README.md)
     * [Dependency Injection](chapter-6-architecture/dependency-injection.md)
     * [Middleware en filters](chapter-6-architecture/middleware.md)
+    * [Unit Testing](chapter-6-architecture/unit-testing.md)
